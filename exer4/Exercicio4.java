@@ -14,7 +14,7 @@ public class Exercicio4{
 
 		for (int i=1;i<=10 ; i++ ){
 			fatorial*=i;
-			System.out.printf("%d ",fatorial);
+			System.out.printf(" Fatorial de %d = %d \n",i,fatorial);
 		}
 		
 	}

@@ -15,6 +15,7 @@ class Exercicio7 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int x;
+		System.out.print("Digite um valor ");
 		x = sc.nextInt();
 		int i = x;
 		boolean stop=true;

@@ -9,7 +9,7 @@ class Exercicio6{
 
 		while(n<=100){
 			o=m;
-			System.out.println(n);
+			System.out.printf("%d ",n);
 			m+=n;
 			n=o;
 		}

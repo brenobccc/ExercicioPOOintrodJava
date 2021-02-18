@@ -7,7 +7,6 @@ public class Exercicio2{
 			soma+=cont;
 		}
 
-
 		System.out.println("Soma: "+soma);
 			
 		
