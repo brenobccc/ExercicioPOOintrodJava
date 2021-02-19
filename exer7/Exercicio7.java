@@ -17,17 +17,21 @@ class Exercicio7 {
 		int x;
 		System.out.print("Digite um valor ");
 		x = sc.nextInt();
-		int i = x;
+		int i = x; 
 		boolean stop=true;
 		while (stop) {
-			System.out.print(i + " ");
+			
 			if(i==1)
 				stop = false;
 
-			if (i % 2 == 0) 
-				i = i / 2;
-			else 
-				i = 3 * i + 1;	
+			if(stop){
+				if (i % 2 == 0) 
+						i = i / 2;
+				else if(i%2!=0)
+						i = 3 * i + 1;
+
+				System.out.print(i + " ");	
+			}
 		}
 
 		sc.close();
